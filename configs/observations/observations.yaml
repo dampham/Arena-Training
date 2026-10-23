@@ -250,7 +250,7 @@ datasources:
     type: CrowdTimeToContactGenerator      # Time to contact against the measured robot velocity
 
   crowd_set:
-    type: CrowdSetGenerator                # Padded set of nearby pedestrians (x, y, vx, vy, mask), ordered by id
+    type: CrowdSetGenerator                # Padded set of nearby pedestrians (x, y, vx, vy, mask, id), ordered by id
 
   crowd_robot_pose:
     type: CrowdRobotPoseGenerator       # Robot pose [x, y, yaw] to align crowd states over time
